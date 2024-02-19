@@ -59,7 +59,7 @@ identity (bot API alternative) using Python.
 ### Installing
 
 ``` bash
-pip3 install pyrogram-dev
+pip3 install --force-reinstall pyrogram-dev
 ```
 
 ### Resources
