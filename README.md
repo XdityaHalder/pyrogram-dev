@@ -64,7 +64,7 @@ pip3 install pyrogram-dev
 
 ### Resources
 
-- Join the official channel at https://t.me/adityaserver and stay tuned for news, updates and announcements.
+- Join our official [**`telegram channel`**](https://t.me/adityaserver) and stay tuned for news, updates and announcements.
 
 
 ### Special Thanks
