@@ -1,20 +1,20 @@
-#  Pyrogram - Telegram MTProto API Client Library for Python
-#  Copyright (C) 2017-present Dan <https://github.com/delivrance>
+#  Pyrogram-Dev - Telegram MTProto API Client Library for Python
+#  Copyright (C) 2024-present Aditya <https://github.com/AdityaHalder>
 #
-#  This file is part of Pyrogram.
+#  This file is part of Pyrogram-Dev.
 #
-#  Pyrogram is free software: you can redistribute it and/or modify
+#  Pyrogram-Dev is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU Lesser General Public License as published
 #  by the Free Software Foundation, either version 3 of the License, or
 #  (at your option) any later version.
 #
-#  Pyrogram is distributed in the hope that it will be useful,
+#  Pyrogram-Dev is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
 #  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #  GNU Lesser General Public License for more details.
 #
 #  You should have received a copy of the GNU Lesser General Public License
-#  along with Pyrogram.  If not, see <http://www.gnu.org/licenses/>.
+#  along with Pyrogram-Dev.  If not, see <http://www.gnu.org/licenses/>.
 
 import re
 from sys import argv
@@ -38,15 +38,15 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     errors_compiler.start()
 
 setup(
-    name="Pyrogram",
+    name="pyrogram-dev",
     version=version,
     description="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/pyrogram",
-    download_url="https://github.com/pyrogram/pyrogram/releases/latest",
-    author="Dan",
-    author_email="dan@pyrogram.org",
+    url="https://github.com/pyrogram-dev/pyrogram-dev",
+    download_url="https://github.com/pyrogram-dev/pyrogram-dev/releases/latest",
+    author="AdityaHalder",
+    author_email="xdityahalder@gmail.com",
     license="LGPLv3",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -73,14 +73,12 @@ setup(
     ],
     keywords="telegram chat messenger mtproto api client library python",
     project_urls={
-        "Tracker": "https://github.com/pyrogram/pyrogram/issues",
-        "Community": "https://t.me/pyrogram",
-        "Source": "https://github.com/pyrogram/pyrogram",
+        "Source": "https://github.com/pyrogram-dev/pyrogram-dev",
         "Documentation": "https://docs.pyrogram.org",
     },
     python_requires="~=3.8",
     package_data={
-        "pyrogram": ["py.typed"],
+        "pyrogram-dev": ["py.typed"],
     },
     packages=find_packages(exclude=["compiler*", "tests*"]),
     zip_safe=False,

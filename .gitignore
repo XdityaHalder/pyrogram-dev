@@ -1,12 +1,11 @@
 # Development
-docs
 *.session
 config.ini
 main.py
 unknown_errors.txt
 .DS_Store
 
-# Pyrogram generated code
+# Pyrogram-Dev generated code
 pyrogram/errors/exceptions/
 pyrogram/raw/functions/
 pyrogram/raw/types/
@@ -128,3 +127,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+docs_build.sh
+.buildinfo
