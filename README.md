@@ -5,7 +5,7 @@
     <br>
     <b>Telegram MTProto API Framework for Python</b>
     <br>
-    <a href="https://github.com/pyrogram-dev/pyrogram-dev">
+    <a href="https://github.com/AdityaHalder/pyrogram-dev">
         Homepage
     </a>
     •
@@ -13,7 +13,7 @@
         Documentation
     </a>
     •
-    <a href="https://github.com/pyrogram-dev/pyrogram-dev/releases/latest">
+    <a href="https://github.com/AdityaHalder/pyrogram-dev/releases/latest">
         Releases
     </a>
     •
