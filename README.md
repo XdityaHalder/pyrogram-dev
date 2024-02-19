@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="https://github.com/pyrogram/pyrogram">
-        <img src="https://docs.pyrogram.org/_static/pyrogram.png" alt="Pyrogram" width="128">
+    <a href="https://github.com/pyrogram-dev/pyrogram-dev">
+        <img src="https://graph.org/file/0fef218ce9414e4115c3d.png" alt="Pyrogram-Dev" width="128">
     </a>
     <br>
     <b>Telegram MTProto API Framework for Python</b>
     <br>
-    <a href="https://pyrogram.org">
+    <a href="https://github.com/pyrogram-dev/pyrogram-dev">
         Homepage
     </a>
     •
@@ -13,18 +13,19 @@
         Documentation
     </a>
     •
-    <a href="https://docs.pyrogram.org/releases">
+    <a href="https://github.com/pyrogram-dev/pyrogram-dev/releases/latest">
         Releases
     </a>
     •
-    <a href="https://t.me/pyrogram">
+    <a href="https://t.me/AdityaServer">
         News
     </a>
 </p>
 
-## Pyrogram
+## Pyrogram-Dev
 
-> Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots
+> A fork version elegant, modern and asynchronous Telegram MTProto API framework of [Pyrogram](https://github.com/pyrogram/pyrogram) library in Python for users and bots.
+
 
 ``` python
 from pyrogram import Client, filters
@@ -34,27 +35,20 @@ app = Client("my_account")
 
 @app.on_message(filters.private)
 async def hello(client, message):
-    await message.reply("Hello from Pyrogram!")
+    await message.reply("Hello from Pyrogram-Dev!")
 
 
 app.run()
 ```
 
-**Pyrogram** is a modern, elegant and asynchronous [MTProto API](https://docs.pyrogram.org/topics/mtproto-vs-botapi)
+**Pyrogram-Dev** is a modern, elegant and asynchronous [MTProto API](https://github.com/pyrogram-dev/pyrogram-dev)
 framework. It enables you to easily interact with the main Telegram API through a user account (custom client) or a bot
 identity (bot API alternative) using Python.
 
-### Support
-
-If you'd like to support Pyrogram, you can consider:
-
-- [Become a GitHub sponsor](https://github.com/sponsors/delivrance).
-- [Become a LiberaPay patron](https://liberapay.com/delivrance).
-- [Become an OpenCollective backer](https://opencollective.com/pyrogram).
 
 ### Key Features
 
-- **Ready**: Install Pyrogram with pip and start building your applications right away.
+- **Ready**: Install Pyrogram-Dev with pip and start building your applications right away.
 - **Easy**: Makes the Telegram API simple and intuitive, while still allowing advanced usages.
 - **Elegant**: Low-level details are abstracted and re-presented in a more convenient way.
 - **Fast**: Boosted up by [TgCrypto](https://github.com/pyrogram/tgcrypto), a high-performance cryptography library written in C.  
@@ -65,11 +59,16 @@ If you'd like to support Pyrogram, you can consider:
 ### Installing
 
 ``` bash
-pip3 install pyrogram
+pip3 install pyrogram-dev
 ```
 
 ### Resources
 
-- Check out the docs at https://docs.pyrogram.org to learn more about Pyrogram, get started right
-away and discover more in-depth material for building your client applications.
-- Join the official channel at https://t.me/pyrogram and stay tuned for news, updates and announcements.
+- Join the official channel at https://t.me/adityaserver and stay tuned for news, updates and announcements.
+
+
+### Special Thanks
+
+- [Pyrogram](https://github.com/pyrogram/pyrogram) - Pyrogram is a original library source from which pyrogram-dev was built.
+
+
