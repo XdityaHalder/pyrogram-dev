@@ -15,6 +15,8 @@
 #
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with Pyrogram-Dev.  If not, see <http://www.gnu.org/licenses/>.
+
+
 from .bot_command import BotCommand
 from .bot_command_scope import BotCommandScope
 from .bot_command_scope_all_chat_administrators import BotCommandScopeAllChatAdministrators

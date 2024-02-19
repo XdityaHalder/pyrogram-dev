@@ -15,6 +15,8 @@
 #
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with Pyrogram-Dev.  If not, see <http://www.gnu.org/licenses/>.
+
+
 # From https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types.
 # Extended with extra mime types specific to Telegram.
 mime_types = """

@@ -15,6 +15,8 @@
 #
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with Pyrogram-Dev.  If not, see <http://www.gnu.org/licenses/>.
+
+
 GRINNING_FACE = "\U0001f600"
 GRINNING_FACE_WITH_BIG_EYES = "\U0001f603"
 GRINNING_FACE_WITH_SMILING_EYES = "\U0001f604"

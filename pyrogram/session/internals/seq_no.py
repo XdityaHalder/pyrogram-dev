@@ -16,6 +16,8 @@
 #  You should have received a copy of the GNU Lesser General Public License
 #  along with Pyrogram-Dev.  If not, see <http://www.gnu.org/licenses/>.
 
+
+
 class SeqNo:
     def __init__(self):
         self.content_related_messages_sent = 0
